@@ -4,8 +4,8 @@
   "description": "Practice writing and using first-class functions in JavaScript on Learn",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json"
-  },
+  "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json"
+},
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/learn-co-curriculum/first-class-functions.git"
@@ -27,7 +27,7 @@
     "chai": "4.1.2",
     "chai-spies": "^1.0.0",
     "jsdom": "9.2.1",
-    "mocha": "5.2.0",
+    "mocha": "^5.2.0",
     "mocha-jsdom": "~1.1.0",
     "mocha-multi": "1.0.1"
   }
